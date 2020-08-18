@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://Locke:1dJNe5AXQywUeZya1aKvyvFZa0r24uYkgQrIg5g897ySyXBweDLI2Kbv7LW3q511Zzzp9rMX6DH8L3KvlFC36xvG0fQ1UX9OlsH@devconnect.8xonr.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret":"forwardsbackwards"
+}
