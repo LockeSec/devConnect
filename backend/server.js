@@ -12,10 +12,8 @@ app.get('/', (req, res) => {
 app.use(express.json());
 
 app.use('/api/users', require('./routes/api/users'));
-
-const errorHandling = require('./middleware/errorHandling');
-app.use(errorHandling.routeNotFound);
-app.use(errorHandling.errorHandler);
+app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/profile', require('./routes/api/profile'));
 
 const PORT = process.env.PORT || 5000;
 
